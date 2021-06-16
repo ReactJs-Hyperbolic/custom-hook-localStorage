@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Custom React.js Hook - useLocalStorage
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
