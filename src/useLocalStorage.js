@@ -13,7 +13,9 @@ function getSavedValue(key, initialValue) {
 }
 
 export default function useLocalStorage(key, initialValue) {
+  // Create state to store the value
   const [value, setValue] = useState(() => {
+    //   Call getSavedValue when ran to return a value
     return getSavedValue(key, initialValue);
   });
 
